@@ -96,7 +96,7 @@ resource "azurerm_windows_virtual_machine" "main" {
 
     source_image_reference {
       publisher = "MicrosoftWindowsServer"
-      offer     = "WwindowsServer"
+      offer     = "WindowsServer"
       sku       =  "2012-2-Datacenter"
       version   =  "latest"
     }
